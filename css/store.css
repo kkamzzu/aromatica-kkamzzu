@@ -1,0 +1,66 @@
+article.store-wrap{
+  margin-top: 60px;
+  height: 100vh;
+  width: 100%;
+}
+
+.store-wrap .inner{
+  height: 100%;
+}
+
+.store-wrap .inner .text-wrap {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.store-wrap .inner .text-wrap h2{
+  font-family: var(--en-font);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.store-wrap .inner .text-wrap p{
+  font-family: var(--kr-font);
+  
+}
+.store-wrap .inner .map-wrap{
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.store-wrap .inner .map-wrap li{
+  width: 40%;
+  margin: 0 40px;
+}
+.store-wrap .inner .map-wrap li > div .address-box{
+  margin-top: 20px;
+  line-height: 1.5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.store-wrap .inner .map-wrap li > div .address-box dt{
+  font-family: var(--kr-font);
+  border-bottom:1px solid #000 ;
+  font-size: 24px;
+  padding-top: 10px;
+}
+.store-wrap .inner .map-wrap li > div .address-box dd{
+  font-family: var(--kr-font);
+  padding: 20px 0;
+}
+.store-wrap .inner .map-wrap li > div .address-box dd p:nth-child(2){
+  margin: 10px 0;
+}
+.store-wrap .inner .map-wrap li > div .map-link a {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+}
+.store-wrap img{
+  width: 100%;
+}

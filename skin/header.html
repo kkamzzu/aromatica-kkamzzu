@@ -1,0 +1,78 @@
+<header>
+  <div class="header-wrap inner">
+    <h1 class="logo"><a href="../index.html">AROMATICA</a></h1>
+    <div class="header-nav">
+      <ul class="dep1">
+        <!-- 쇼핑 -->
+        <li>
+          <a href="#">Shopping</a>
+          <div>
+            <ul class="dep2">
+              <li><a href="../html/newItem.html">New</a></li>
+              <li><a href="../html/zeroItem.html">Zero Waste</a></li>
+              <li><a href="../html/shopping.html">Hair Care</a></li>
+            </ul>
+          </div>
+        </li>
+        <!-- 브랜드 -->
+        <li>
+          <a href="#">Brand</a>
+          <div>
+            <ul class="dep2">
+              <li><a href="../html/story.html">스토리</a></li>
+              <li><a href="../html/store.html">스토어</a></li>
+              <li><a href="../html/material.html">원료</a></li>
+            </ul>
+          </div>
+        </li>
+        <!-- 솔루션 -->
+        <li>
+          <a href="#"> Solution </a>
+          <div>
+            <ul class="dep2">
+              <li>
+                <a href="../html/pickup.html">공병수거신청</a>
+              </li>
+              <li>
+                <a href="../html/recylceGuide.html">분리배출가이드</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 이벤트 -->
+        <li>
+          <a href="../html/event.html">Event</a>
+          <div>
+            <ul class="dep2">
+              <li>
+                <a href="../html/customizing.html">커스터마이징</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="my-page-wrap">
+      <div class="my-info-wrap">
+        <a href="#">c</a>
+      </div>
+      <div class="my-info-wrap">
+        <a href="#">m</a>
+      </div>
+    </div>
+  </div>
+  <div class="header-dim"></div>
+</header>
+
+<script>
+  $(document).ready(function () {
+    $(".header-nav > .dep1 > li")
+      .mouseover(function () {
+        console.log(";;");
+        $("header").addClass("on");
+      })
+      .mouseout(function () {
+        $("header").removeClass("on");
+      });
+  });
+</script>

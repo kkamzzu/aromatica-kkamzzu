@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aromatica-K</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index_media.css" />
+
+    <!-- ko-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- en-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- fontawesome 5.8.2-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <!-- fontawesome 4.7.0-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <!-- jquery cdn + load skin -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(function () {
+        // header, footer 불러오기
+        $("#header").load("./skin/header.html");
+        $("#footer").load("./skin/footer.html");
+        $("#aside").load("./skin/aside.html");
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <!-- header -->
+      <div id="header"></div>
+      <!-- main event -->
+      <main id="main-wrap">
+        <!-- swiper -->
+        <div class="swiper main-swiper">
+          <div class="swiper-wrapper">
+            <!-- custom event -->
+            <div class="swiper-slide swiper-cutsom-slide">
+              <div>
+                <a
+                  href="./html/customizing.html"
+                  class="swiper-text custom-swiper-text"
+                >
+                  <div class="border-box">
+                    <p>DO IT YOUR SELF</p>
+                    <p>
+                      아로마티카의 특별한 오리진 원료로 <br />나만의 아로마티카
+                      만들기
+                    </p>
+                    <p>바로가기</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <!-- zero waste event -->
+            <div class="swiper-slide">
+              <div class="swiper-text swiper-zero-text">
+                <h5>
+                  나와 지구를 생각한 제로 웨이스트 라이프 스타일을 꿈꾼다면,<br />
+                  <strong>[용기내]</strong><br />
+                  캠페인에 참여해보세요.
+                </h5>
+                <p><a href="./html/recylceGuide.html">참여하기</a></p>
+              </div>
+            </div>
+            <!-- sale event -->
+            <div class="swiper-slide">
+              <a
+                href="./html/shopping.html"
+                class="swiper-text swiper-product-text"
+              >
+                <h5>
+                  BLANCING YOUR <br />
+                  BODY &amp; MIND
+                </h5>
+                <p>아로마티카의 티트리를 경험해보세요</p>
+                <p>UP TO 30% & SPECIAL OFFERS</p>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </main>
+
+      <!-- 새 상품 -->
+      <section class="new-item-section">
+        <div class="inner">
+          <div class="title-wrap">
+            <div class="title-text-wrap">
+              <h4>New Arrivals</h4>
+              <p>가장 먼저 만나보는 아로마티카의 신제품</p>
+            </div>
+            <div class="title-btn-wrap">
+              <button>
+                <a href="./html/newItem.html">새로운 제품 더보기</a>
+              </button>
+            </div>
+          </div>
+          <ul class="col-4-items">
+            <li>
+              <div class="img-wrap">
+                <img src="./img/best-item/1.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">
+                  글로우 비타 굿나잇 크림 오렌지 앤 네롤리 90g
+                </p>
+                <span class="item-price">34,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/best-item/2.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">유리 돌고래 괄사</p>
+                <span class="item-price">32,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/best-item/3.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">슬립타이트 필로우 미스트 100ML</p>
+                <span class="item-price">23,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/best-item/4.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">언버든 스트레스 릴리프 밤</p>
+                <span class="item-price">17,600원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <article id="circle-wrap">
+        <div>
+          <h4>JOIN THE CIRCLE</h4>
+          <p>
+            플라스틱이 쓰레기가 되지 않고 무한하게 다시 태어나는 세상. <br />
+            원형으로 순환되는 삶을 위한 아로마티카의 제안
+          </p>
+          <p><a href="./html/pakageEffect.html">더 알아보기</a></p>
+        </div>
+      </article>
+
+      <!-- 제로웨이스트 아로마테라피 -->
+      <!-- 제로웨이스트 상품 -->
+      <section class="new-item-section zero-item">
+        <div class="inner">
+          <div class="title-wrap">
+            <h4>제로웨이스트</h4>
+            <p>잔재쓰레기를 줄이고 환경을 살리는 제품들을 만나보세요</p>
+          </div>
+
+          <ul class="col-4-items">
+            <li>
+              <div class="img-wrap">
+                <img src="./img/zero/1.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">로즈마리 스칼프 스케일링 샴푸 바 135G</p>
+                <span class="item-price">34,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/zero/2.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">유리돌고래괄사</p>
+                <span class="item-price">32,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/zero/3.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">유리 돌고래 괄사</p>
+                <span class="item-price">23,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/zero/4.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">유리돌고래괄사</p>
+                <span class="item-price">17,600원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 아로마테라피 상품 -->
+      <section class="new-item-section aroma-item">
+        <div class="inner">
+          <div class="title-wrap">
+            <h4>아로마테라피</h4>
+            <p>
+              일상의 모든 순간을 채우는 홀리스틱 아로마테라피를 경험해보세요
+            </p>
+          </div>
+          <ul class="col-4-items">
+            <li>
+              <div class="img-wrap">
+                <img src="./img/aroma/1.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">언버든 스트레스 릴리프 밤</p>
+                <span class="item-price">34,000원</span>
+              </div>
+
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/aroma/2.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">슬립타이트 시너지 오일 10ML</p>
+                <span class="item-price">32,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/aroma/3.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">서렌 디퓨저 라벤더 & 라반딘 100ML</p>
+                <span class="item-price">23,000원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="img-wrap">
+                <img src="./img/aroma/4.jpeg" alt="" />
+              </div>
+              <div class="text-wrap">
+                <p class="item-title">
+                  서렌 아로마테라피 미스트 라벤더 & 마조람
+                </p>
+                <span class="item-price">17,600원</span>
+              </div>
+              <div class="btn-wrap">
+                <span>CART</span>
+                <div class="like-icon">
+                  <i class="far fa-heart"></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- aside -->
+      <div id="aside"></div>
+
+      <!-- footer -->
+      <div id="footer"></div>
+
+      <!-- coupon modal -->
+      <div id="coupon-modal-wrap">
+        <div class="coupon-main-text-wrap">
+          <h3>COUPON</h3>
+          <p class="close">X</p>
+        </div>
+        <div class="coupon-wrap">
+          <!-- 스킨케어 쿠폰 -->
+          <div class="coupon-box">
+            <h5>스킨케어 쿠폰</h5>
+            <div class="coupon-text-box">
+              <ul>
+                <li>[1] 월 새해보습 소원 30% 쿠폰(* 굿즈. 툴즈 제외)</li>
+                <li>30% 할인</li>
+                <li>2023-01-16 ~ 2023-02-01</li>
+              </ul>
+              <button>다운받기</button>
+            </div>
+          </div>
+          <!-- 설 선물 쿠폰 -->
+          <div class="coupon-box">
+            <h5>설 선물 쿠폰</h5>
+            <div class="coupon-text-box">
+              <ul>
+                <li>[1] 월 새해보습 소원 30% 쿠폰(* 굿즈. 툴즈 제외)</li>
+                <li>30% 할인</li>
+                <li>2023-01-16 ~ 2023-02-01</li>
+              </ul>
+              <button>다운받기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/82ebd05d63.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- swiper control -->
+    <script>
+      var swiper = new Swiper(".main-swiper", {
+        slidesPerView: "auto", // 한 슬라이드에 보여줄 갯수
+        spaceBetween: 6, // 슬라이드 사이 여백
+        loop: false, // 슬라이드 반복 여부
+        loopAdditionalSlides: 1, // 슬라이드 반복 시 마지막 슬라이드에서 다음 슬라이드가 보여지지 않는 현상 수정
+        pagination: false, // pager 여부
+        autoplay: {
+          // 자동 슬라이드 설정 , 비 활성화 시 false
+          delay: 300000, // 시간 설정
+          disableOnInteraction: false, // false로 설정하면 스와이프 후 자동 재생이 비활성화 되지 않음
+        },
+        navigation: {
+          // 버튼 사용자 지정
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
+
+<!-- 
+
+  깜쯔가 해야할것
+
+  - skin화 시켜놓은 header, footer를 다른 페이지에도 적용시키기
+  적용시킬때 해야할것
+
+    - jquery cdn , load되는 함수 가져오기
+    - div id="header", id="footer" 두개만들어서 각자 넣어주기
+
+  - shopping.css 에 정말 필요한것만넣기
+    현재는 #box02같은 알아보기힘든 아이디명으로 인덱스에도 중복되어있는데
+    이럴 경우에는 해당 페이지에 해당 css를 넣고 혹시나 index.css도 넣어버리게되면
+    바로 꼬이는 경우가 생기기때문에
+    아이디를 바꾸기 ( 그리고 아이디 쓰지말고 클래스로 쓰기)
+  
+  - 메인에 있는 #box02 이런것들 조금더 정리해보기
+  같은 디자인은 공통적으로 묶어보기
+ -->

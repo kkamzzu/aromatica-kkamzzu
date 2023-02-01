@@ -1,0 +1,191 @@
+/*공통 */
+article{
+  padding: 60px 80px;
+  box-sizing: border-box;
+}
+
+/* main-text-box */
+.guide-wrap{
+  margin-top: 60px;
+}
+.guide-wrap .main-text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guide-wrap .main-text-box h3{
+  font-size: 60px;
+  font-family: var(--en-font);
+  margin-bottom: 30px;
+}
+.guide-wrap .main-text-box ul{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.guide-wrap .main-text-box ul li a{
+  margin: 0 10px;
+  font-family: var(--kr-font);
+}
+/* borer-bottom */
+.guide-wrap .main-text-box ul li:first-child > a{
+  border-bottom: 1px solid rgb(157, 153, 153);
+}
+/* 메인 이미지 */
+.guide-wrap .img-wrap{
+  background: url('../img/picup/main01.jpg') no-repeat 100% center / cover ;
+  height: 300px;
+}
+.guide-wrap .img-wrap p{
+  padding: 100px 0;
+  font-size: 30px;
+  text-align: center;
+  font-family: serif;
+  color: #fff;
+}
+/* 캠페인 설명 */
+.guide-wrap .explain-wrap{
+  background-color: rgb(218, 224, 228);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guide-wrap .explain-wrap .text-wrap{
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.guide-wrap .explain-wrap .text-wrap h5{
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: var(--kr-font);
+}
+.guide-wrap .explain-wrap .text-wrap p{
+  font-family: var(--kr-font);
+  font-size: 19px;
+  max-width: 70%;
+  text-align: center;
+  line-height: 1.5;
+}
+.guide-wrap .explain-wrap .text-wrap  .middle-p{
+margin: 30px 0 10px 0;
+}
+.guide-wrap .explain-wrap .recylcle-wrap{
+
+  padding: 70px 0;
+  width: 90%;
+}
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li:last-child,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li:last-child{
+  margin-right: 0;
+}
+
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li img,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li img{
+  margin-bottom: 15px;
+  width: 180px;
+  border-radius: 50%;
+}
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li p,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li p{
+  min-height: 48px;
+text-align: center;
+line-height: 1.5;
+}
+
+/* article03 */
+/* return방법 */
+
+.guide-wrap .return-wrap{
+}
+.guide-wrap .return-wrap .return-way-wrap{
+}
+.guide-wrap .return-wrap .return-way-wrap ul{
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+.guide-wrap .return-wrap .return-way-wrap li{
+  max-width: 310px;
+  margin-right: 20px;
+}
+.guide-wrap .return-wrap .return-way-wrap li:last-child{
+  margin-right: 0;
+}
+.guide-wrap .return-wrap .return-way-wrap li img{
+  width: 320px;
+  padding-bottom: 20px;
+}
+.guide-wrap .return-wrap .return-way-wrap li h6{
+  font-size: 26px;
+  font-family: var(--kr-font);
+  text-align: center;
+}
+.guide-wrap .return-wrap .return-way-wrap li p{
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.5;
+  
+  
+}
+.guide-wrap .return-wrap .return-way-wrap li span{
+  font-family: var(--kr-font);
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.guide-wrap .return-wrap .return-way-wrap li span:last-child{
+  margin-bottom: 0;
+}
+
+
+.guide-wrap .return-wrap .pickup-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+.guide-wrap .return-wrap .pickup-wrap p{
+  text-align: center;
+  line-height: 1.5;
+  font-family: var(--kr-font);
+}
+.guide-wrap .return-wrap .pickup-wrap button{
+
+  width: 130px;
+  height: 35px;
+  margin-top: 60px;
+  border: none;
+  background-color:var(--color-main);
+}
+.guide-wrap .return-wrap .pickup-wrap button a{
+  font-family: var(--kr-font);
+  color: #fff;
+}
