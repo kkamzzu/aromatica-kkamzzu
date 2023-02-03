@@ -7,7 +7,7 @@
     <title>분리배출 가이드</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/reclyceGuide.css" />
+    <link rel="stylesheet" href="../css/solution.css" />
     <!-- ko-font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,18 +30,148 @@
         // header, footer 불러오기
         $("#header").load("../skin/header.html");
         $("#footer").load("../skin/footer.html");
+        $("#aside").load("../skin/aside.html");
       });
     </script>
   </head>
   <body>
-    <div id="wrap">
+    <div id="guide-main-wrap">
       <!-- header -->
       <div id="header"></div>
-      <h1>분리배출 가이드</h1>
-      <p>유리</p>
-      <p>플라스틱</p>
-      <!-- footer -->
-      <div id="footer"></div>
+      <div class="guide-wrap recylce-guide-wrap">
+        <!-- main text -->
+        <!-- article 01 -->
+        <article class="main-text-box">
+          <h3>Solution</h3>
+          <ul>
+            <li><a href="../html/pickup.html">공병수거신청</a></li>
+            <li><a href="../html/recylceGuide.html">분리배출가이드</a></li>
+          </ul>
+        </article>
+        <!-- main-img -->
+        <main class="img-wrap">
+          <p>Recycling Campaign</p>
+        </main>
+        <!-- effect wrap -->
+        <section class="e-g-wrap effect-wrap">
+          <div class="text-wrap">
+            <h4>EXPECTED EFFECT</h4>
+            <p>지속가능 패키지의 효과</p>
+          </div>
+          <div class="graph-wrap">
+            <!-- 탄소 절감 그래프 -->
+            <div class="carbon-energy-wrap carbon-wrap">
+              <h6>탄소발자국 감소율</h6>
+              <ul>
+                <li>
+                  <dfn>종이포장재</dfn>
+                  <span>63%</span>
+                </li>
+                <li>
+                  <dfn>90% 재활용 유리</dfn>
+                  <span>81%</span>
+                </li>
+                <li>
+                  <dfn>100% 재활용 플라스틱</dfn>
+                  <span>79%</span>
+                </li>
+              </ul>
+            </div>
+            <!-- 에너지 절감 그래프 -->
+            <div class="carbon-energy-wrap energy-wrap">
+              <h6>에너지 절감율</h6>
+              <ul>
+                <li>
+                  <dfn>종이포장재</dfn>
+                  <span>64%</span>
+                </li>
+                <li>
+                  <dfn>90% 재활용 유리</dfn>
+                  <span>40%</span>
+                </li>
+                <li>
+                  <dfn>100% 재활용 플라스틱</dfn>
+                  <span>80%</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- guide-wrap -->
+        <section class="e-g-wrap guide-wrap">
+          <div class="text-wrap">
+            <h4>GUIDE</h4>
+            <p>분리배출 가이드</p>
+          </div>
+          <!-- glass -->
+          <article class="guide-info-wrap glass-wrap">
+            <div class="info-text">
+              <h6>유리 분리배출방법</h6>
+            </div>
+            <div class="info-img-wrap">
+              <ul class="book-mark-wrap">
+                <li>
+                  <i></i>
+                  <p>펌프</p>
+                </li>
+                <li>
+                  <i></i>
+                  <p>캡</p>
+                </li>
+                <li>
+                  <i></i>
+                  <p>스포이드</p>
+                </li>
+              </ul>
+              <ul class="guide-img">
+                <li>
+                  <img src="../img/package/recycle/glass_001.png" alt="" />
+                </li>
+                <li>
+                  <img src="../img/package//recycle/glass_001_B.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </article>
+          <!-- plastic -->
+          <article class="guide-info-wrap plastic-wrap">
+            <div class="info-text">
+              <h6>플라스틱 분리배출방법</h6>
+            </div>
+            <div class="info-img-wrap">
+              <ul class="book-mark-wrap">
+                <li>
+                  <i></i>
+                  <p>펌프</p>
+                </li>
+                <li>
+                  <i></i>
+                  <p>캡</p>
+                </li>
+                <li>
+                  <i></i>
+                  <p>스포이드</p>
+                </li>
+              </ul>
+              <ul class="guide-img">
+                <li>
+                  <img src="../img/package/recycle/plastic_001.png" alt="" />
+                </li>
+                <li>
+                  <img src="../img/package/recycle/plastic_001_B.png" alt="" />
+                </li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <!-- aside -->
+        <div id="aside"></div>
+
+        <!-- footer -->
+        <div id="footer"></div>
+      </div>
     </div>
   </body>
 </html>

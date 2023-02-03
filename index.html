@@ -85,7 +85,7 @@
                   <strong>[용기내]</strong><br />
                   캠페인에 참여해보세요.
                 </h5>
-                <p><a href="./html/recylceGuide.html">참여하기</a></p>
+                <p><a href="./html/pickup.html">참여하기</a></p>
               </div>
             </div>
             <!-- sale event -->
@@ -359,35 +359,43 @@
 
       <!-- coupon modal -->
       <div id="coupon-modal-wrap">
-        <div class="coupon-main-text-wrap">
-          <h3>COUPON</h3>
-          <p class="close">X</p>
-        </div>
-        <div class="coupon-wrap">
-          <!-- 스킨케어 쿠폰 -->
-          <div class="coupon-box">
-            <h5>스킨케어 쿠폰</h5>
-            <div class="coupon-text-box">
-              <ul>
-                <li>[1] 월 새해보습 소원 30% 쿠폰(* 굿즈. 툴즈 제외)</li>
-                <li>30% 할인</li>
-                <li>2023-01-16 ~ 2023-02-01</li>
-              </ul>
-              <button>다운받기</button>
+        <div class="inner">
+          <div class="coupon-main-text-wrap">
+            <h3>쿠폰</h3>
+            <p class="close">X</p>
+          </div>
+          <!--  -->
+          <div class="coupon-wrap">
+            <!-- 스킨케어 쿠폰 -->
+            <div class="coupon-box">
+              <h5>스킨케어 쿠폰</h5>
+              <div class="coupon-text-box">
+                <ul>
+                  <li>[1] 월 새해보습 소원 30% 쿠폰(* 굿즈. 툴즈 제외)</li>
+                  <li>30% 할인</li>
+                  <li>2023-01-16 ~ 2023-02-01</li>
+                </ul>
+                <button>다운받기</button>
+              </div>
+            </div>
+            <!-- 설 선물 쿠폰 -->
+            <div class="coupon-box">
+              <h5>설 선물 쿠폰</h5>
+              <div class="coupon-text-box">
+                <ul>
+                  <li>[1] 월 새해보습 소원 30% 쿠폰(* 굿즈. 툴즈 제외)</li>
+                  <li>30% 할인</li>
+                  <li>2023-01-16 ~ 2023-02-01</li>
+                </ul>
+                <button>다운받기</button>
+              </div>
             </div>
           </div>
-          <!-- 설 선물 쿠폰 -->
-          <div class="coupon-box">
-            <h5>설 선물 쿠폰</h5>
-            <div class="coupon-text-box">
-              <ul>
-                <li>[1] 월 새해보습 소원 30% 쿠폰(* 굿즈. 툴즈 제외)</li>
-                <li>30% 할인</li>
-                <li>2023-01-16 ~ 2023-02-01</li>
-              </ul>
-              <button>다운받기</button>
-            </div>
-          </div>
+          <p class="caution">
+            쿠폰 다운로드 및 사용은 로그인 후 이용가능합니다.<br />
+            쿠폰의 이용기간이 만료되면 별도의 통보없이 자동 소멸됩니다.<br />
+            쿠폰의 할인 적용은 쿠폰 할인 속성에 따라 다르게 적용될 수 있습니다.
+          </p>
         </div>
       </div>
     </div>
@@ -408,7 +416,7 @@
         pagination: false, // pager 여부
         autoplay: {
           // 자동 슬라이드 설정 , 비 활성화 시 false
-          delay: 300000, // 시간 설정
+          delay: 2000, // 시간 설정
           disableOnInteraction: false, // false로 설정하면 스와이프 후 자동 재생이 비활성화 되지 않음
         },
         navigation: {
@@ -420,23 +428,3 @@
     </script>
   </body>
 </html>
-
-<!-- 
-
-  깜쯔가 해야할것
-
-  - skin화 시켜놓은 header, footer를 다른 페이지에도 적용시키기
-  적용시킬때 해야할것
-
-    - jquery cdn , load되는 함수 가져오기
-    - div id="header", id="footer" 두개만들어서 각자 넣어주기
-
-  - shopping.css 에 정말 필요한것만넣기
-    현재는 #box02같은 알아보기힘든 아이디명으로 인덱스에도 중복되어있는데
-    이럴 경우에는 해당 페이지에 해당 css를 넣고 혹시나 index.css도 넣어버리게되면
-    바로 꼬이는 경우가 생기기때문에
-    아이디를 바꾸기 ( 그리고 아이디 쓰지말고 클래스로 쓰기)
-  
-  - 메인에 있는 #box02 이런것들 조금더 정리해보기
-  같은 디자인은 공통적으로 묶어보기
- -->

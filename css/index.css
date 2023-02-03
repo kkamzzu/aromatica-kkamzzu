@@ -226,14 +226,14 @@ header.on .header-wrap .header-nav .dep1 > li > div .dep2 {
 /* swiper-text */
 #main-wrap .main-swiper .swiper-wrapper .swiper-slide .swiper-text h5 {
   font-size: 40px;
-  color: #E9E3D3;
+  color: #f3f0e6;
 }
 #main-wrap .main-swiper .swiper-wrapper .swiper-slide .swiper-text p {
   font-size: 22px;
-  color: #E9E3D3;
+  color: #f3f0e6;
 }
 #main-wrap .main-swiper .swiper-wrapper .swiper-slide .swiper-text p a {
-  color: #E9E3D3;
+  color: #f3f0e6;
 }
 
 /* custom */
@@ -533,15 +533,15 @@ line-height: 1.2;}
   font-family: var(--en-font);
   position: fixed;
   right: 15px;
-  bottom: 25px;
+  bottom: 10px;
   width: 45px;
   height: 45px;
-  border: 1px solid #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(71, 92, 73, 0.9);
+  background-color: rgb(75, 143, 51);
+
 }
 #aside .top a {
   color: #fff;
@@ -551,48 +551,26 @@ line-height: 1.2;}
   position: relative;
   position: fixed;
   right: 15px;
-  bottom: 500px;
-  width: 150px;
-  height: 100px;
-  border-radius: 30px;
-  background-color: rgba(71, 92, 73, 0.9);
+  bottom: 70px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: rgb(75, 143, 51);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-#aside .coupon .coupon-circle {
-  border: none;
-  position: absolute;
-  top: -18px;
-  background-color: rgb(227, 174, 68);
-  width: 14px;
-  height: 14px;
-  border-radius: 25px;
-}
-#aside .coupon span {
-  color: #fff;
-  font-size: 20px;
-  font-family: var(--kr-font);
-}
 #aside .coupon p {
-  border: 0.5px solid #fff;
-  width: 100px;
   height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
 }
-#aside .coupon p:last-child:hover {
-  border: 2px solid #fff;
-}
-
 #aside .coupon p a {
   color: #fff;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   font-family: var(--kr-font);
 }
 
@@ -663,6 +641,114 @@ footer .footer-content-wrap .small-wrap small {
   font-size: 12px;
   color: #999;
 }
+
+/* coupon modal */
+#coupon-modal-wrap{
+  color: #fff;
+width: 100%;
+height: 100%;
+position: fixed;
+left: 0; top: 0;
+z-index: 1000;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(34, 26, 26, 0.95);
+display: none;
+}
+
+#coupon-modal-wrap .inner{
+  background-color: rgba(226, 229, 191);
+  width: 40%;
+}
+/* coupon h3 */
+#coupon-modal-wrap .inner .coupon-main-text-wrap{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#coupon-modal-wrap .inner .coupon-main-text-wrap h3{
+  color: #000;
+  font-size: 24px;
+  font-family: var(--kr-font);
+}
+#coupon-modal-wrap .inner .coupon-main-text-wrap p{
+  color: #000;
+  font-size: 22px;
+  position: absolute;
+  right: 20px;
+  font-family: var(--kr-font);
+
+}
+
+
+#coupon-modal-wrap .inner .coupon-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(37, 60, 36, 0.8);
+  width: 80%;
+  margin-bottom: 30px;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box h5{
+  font-size: 20px;
+  font-family: var(--kr-font);
+  padding: 20px 0;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box ul{
+width: 100%;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box ul li{
+font-family: var(--kr-font);
+font-size: 26px;
+width: 100%;
+text-align: center;
+padding: 30px 0;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box ul li:first-child{
+  text-align: start;
+  margin-left: 15px;
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box ul li:last-child{
+  border-top: 1px solid rgba(199, 190, 190, 0.591);
+}
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box ul li:not(:nth-child(2)){
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+#coupon-modal-wrap .inner .coupon-wrap .coupon-box .coupon-text-box button{
+border:  none;
+width: 100%;
+padding: 10px 0;
+font-family: var(--kr-font);
+
+}
+#coupon-modal-wrap .inner .caution{
+  font-family: var(--kr-font);
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 10px;
+  color: #000;
+}
+
+
 
 @media all and (max-width: 1140px) {
   /* S: 공통 */

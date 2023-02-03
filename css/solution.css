@@ -1,0 +1,380 @@
+/*공통 */
+article{
+  padding: 60px 80px;
+  box-sizing: border-box;
+}
+
+/* main-text-box */
+.guide-wrap{
+  margin-top: 60px;
+}
+.guide-wrap .main-text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guide-wrap .main-text-box h3{
+  font-size: 60px;
+  font-family: var(--en-font);
+  margin-bottom: 30px;
+}
+.guide-wrap .main-text-box ul{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.guide-wrap .main-text-box ul li a{
+  margin: 0 10px;
+  font-family: var(--kr-font);
+}
+/* borer-bottom */
+.guide-wrap .main-text-box ul li:first-child > a{
+  border-bottom: 1px solid rgb(157, 153, 153);
+}
+.recylce-guide-wrap .main-text-box ul li:first-child > a{
+  border-bottom: none;
+}
+.recylce-guide-wrap .main-text-box ul li:last-child > a{
+  border-bottom: 1px solid rgb(157, 153, 153);
+
+}
+/* 메인 이미지 */
+.guide-wrap .img-wrap{
+  background: url('../img/picup/main01.jpg') no-repeat 100% center / cover ;
+  height: 300px;
+}
+.recylce-guide-wrap .img-wrap{
+  background: url('../img/picup/main02.jpg') no-repeat 100% center / cover ;
+  margin-bottom: 100px;
+}
+.guide-wrap .img-wrap p{
+  padding: 100px 0;
+  font-size: 30px;
+  text-align: center;
+  font-family: serif;
+  color: #fff;
+}
+/* 캠페인 설명 */
+.guide-wrap .explain-wrap{
+  background-color: rgb(218, 224, 228);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guide-wrap .explain-wrap .text-wrap{
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.guide-wrap .explain-wrap .text-wrap h5{
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: var(--kr-font);
+}
+.guide-wrap .explain-wrap .text-wrap p{
+  font-family: var(--kr-font);
+  font-size: 19px;
+  max-width: 70%;
+  text-align: center;
+  line-height: 1.5;
+}
+.guide-wrap .explain-wrap .text-wrap  .middle-p{
+margin: 30px 0 10px 0;
+}
+.guide-wrap .explain-wrap .recylcle-wrap{
+
+  padding: 70px 0;
+  width: 90%;
+}
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li:last-child,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li:last-child{
+  margin-right: 0;
+}
+
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li img,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li img{
+  margin-bottom: 15px;
+  width: 180px;
+  border-radius: 50%;
+}
+.guide-wrap .explain-wrap .recylcle-wrap .glass-wrap ul li p,
+.guide-wrap .explain-wrap .recylcle-wrap .plastic-wrap ul li p{
+  min-height: 48px;
+text-align: center;
+line-height: 1.5;
+}
+
+/* article03 */
+/* return방법 */
+
+.guide-wrap .return-wrap{
+}
+.guide-wrap .return-wrap .return-way-wrap{
+}
+.guide-wrap .return-wrap .return-way-wrap ul{
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+.guide-wrap .return-wrap .return-way-wrap li{
+  max-width: 310px;
+  margin-right: 20px;
+}
+.guide-wrap .return-wrap .return-way-wrap li:last-child{
+  margin-right: 0;
+}
+.guide-wrap .return-wrap .return-way-wrap li img{
+  width: 320px;
+  padding-bottom: 20px;
+}
+.guide-wrap .return-wrap .return-way-wrap li h6{
+  font-size: 26px;
+  font-family: var(--kr-font);
+  text-align: center;
+}
+.guide-wrap .return-wrap .return-way-wrap li p{
+  margin: 20px 0;
+  text-align: center;
+  line-height: 1.5;
+  
+  
+}
+.guide-wrap .return-wrap .return-way-wrap li span{
+  font-family: var(--kr-font);
+  font-size: 13px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.guide-wrap .return-wrap .return-way-wrap li span:last-child{
+  margin-bottom: 0;
+}
+
+
+.guide-wrap .return-wrap .pickup-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+.guide-wrap .return-wrap .pickup-wrap p{
+  text-align: center;
+  line-height: 1.5;
+  font-family: var(--kr-font);
+}
+.guide-wrap .return-wrap .pickup-wrap button{
+
+  width: 130px;
+  height: 35px;
+  margin-top: 60px;
+  border: none;
+  background-color:var(--color-main);
+}
+.guide-wrap .return-wrap .pickup-wrap button a{
+  font-family: var(--kr-font);
+  color: #fff;
+}
+
+/* 분리배출 가이드 css */
+/* recylceGuide */
+
+#guide-main-wrap section{
+  padding: 0 80px;
+}
+.recylce-guide-wrap .e-g-wrap{
+  /* background-color: rgb(250, 242, 214); */
+}
+.recylce-guide-wrap .e-g-wrap .text-wrap{
+  /* background-color: orange; */
+  padding: 20px 0;
+  /* margin: 40px 0; */
+}
+.recylce-guide-wrap .e-g-wrap .text-wrap h4{
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.recylce-guide-wrap .e-g-wrap .text-wrap p{
+  font-family: var(--kr-font);
+  font-size: 14px;
+}
+
+/* img */
+img{
+  width: 300px;
+}
+/* effect section */
+.recylce-guide-wrap .effect-wrap{
+  background-color: rgb(245, 237, 227);
+}
+.recylce-guide-wrap .effect-wrap .graph-wrap{
+
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap{
+/* background-color: gold; */
+margin: 10px 0;
+padding: 40px 0;
+display: flex;
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap h6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 20%;
+  margin-right: 20px;
+  border: 1px solid #000;
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap ul{
+  width: 80%;
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap ul li{
+  position: relative;
+  padding-left: 220px;
+  /* background-color: rgb(104, 93, 98); */
+}
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap ul li:not(:last-child){
+  margin-bottom: 20px;
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap ul li dfn{
+  min-width: 145px;
+  position: absolute;
+  left: 0; top: 0;
+  height: 38px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  
+
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-energy-wrap ul li span{
+  display: block;
+  width: 100%;
+  background: url('../img/package/recycle/bar.gif') no-repeat left top;
+  height: 38px;
+  text-align: end;
+
+}
+
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-wrap ul li:nth-child(1)> span{
+  background-size: 63%;
+}
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-wrap ul li:nth-child(2)> span{
+  background-size: 81%;
+}
+.recylce-guide-wrap .effect-wrap .graph-wrap .carbon-wrap ul li:nth-child(3)> span{
+  background-size: 79%;
+}
+
+.recylce-guide-wrap .effect-wrap .graph-wrap .energy-wrap ul li:nth-child(1)> span{
+  background-size: 64%;
+}
+.recylce-guide-wrap .effect-wrap .graph-wrap .energy-wrap ul li:nth-child(2)> span{
+  background-size: 40%;
+}
+.recylce-guide-wrap .effect-wrap .graph-wrap .energy-wrap ul li:nth-child(3)> span{
+  background-size: 80%;
+}
+
+/* 분리배출 가이드 */
+/* guide-wrap */
+
+.recylce-guide-wrap .guide-wrap{
+  background-color: #F5EDE3;
+
+}
+
+.recylce-guide-wrap .guide-wrap .guide-info-wrap{
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  /* background-color: rgb(213, 241, 241); */
+  /* background-color: #F5EDE3; */
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-text{
+  padding: 30px 0;
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-text h6{
+  font-size: 28px;
+  font-family: var(--kr-font);
+}
+
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap{
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.book-mark-wrap{
+  margin-right: 30px;
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.book-mark-wrap li{
+  border: 1px solid #000;
+  width: 140px;
+  height: 140px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.book-mark-wrap li:last-child{
+  margin-bottom: 0;
+
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.book-mark-wrap li i{
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #4F7A27;
+  margin-bottom: 5px;
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.book-mark-wrap li p{text-align: center;}
+
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.guide-img{
+  width: 70%;
+  /* background-color: tan; */
+  display: flex;
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.guide-img li{
+  background-color: #fff;
+  border: 1px solid #000;
+
+}
+.recylce-guide-wrap .guide-wrap .guide-info-wrap .info-img-wrap ul.guide-img li img{
+  width: 400px;
+}
+

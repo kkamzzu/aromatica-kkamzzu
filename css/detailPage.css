@@ -1,0 +1,510 @@
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+.up-text-wrap{
+  margin-top: 60px;
+  padding: 10px 0;
+  background-color: rgb(192, 236, 122);
+  text-align: center;
+}
+
+ /* main product */
+
+.product-wrap{
+  /* background-color: rgb(232, 230, 221); */
+}
+.category{
+  /* margin: 10px 0; */
+}
+.category ul{
+  display: flex;
+}
+.category ul li{
+  margin-right: 5px;
+}
+.category ul li:last-child{
+  font-weight: 600;
+  border-bottom: 1px solid #333;
+}
+.product-wrap .inner{
+  padding: 10px 0;
+  /* background-color: hotpink; */
+
+}
+.product-wrap .main-box{
+  /* background-color: rgb(222, 231, 231); */
+  display: flex;
+  align-items: center;
+}
+
+.product-wrap .main-box .product-index{
+  /* padding-left: 40px; */
+  height: 392px;
+  background-color: rgb(238, 236, 236);
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+}
+.product-wrap .main-box .product-index ul{
+  display: flex;
+
+}
+.product-wrap .main-box .product-index ul li{
+  margin-right: 10px;
+}
+.product-wrap .main-box .product-index .product-ul >li:last-child{
+  color: rgb(135, 133, 133);
+}
+.product-wrap .main-box .product-index div.hot{
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-main);
+  color: #fff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.product-wrap .main-box .product-index h2{
+  line-height: 1.5;
+  font-size: 26px;
+  padding: 60px 0;
+}
+.product-wrap .main-box .product-index .images{
+  display: flex;
+  justify-content: flex-start;
+}
+.product-wrap .main-box .product-index .images li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(121, 181, 145);
+  margin-right: 10px;
+}
+.product-wrap .main-box .product-index .images li:last-child{
+  margin-right: 0;
+
+}
+/* main swipper */
+.product-wrap .main-box .swipper{
+  margin: 0 30px;
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-wrap .main-box .swipper img{
+  width: 100%;
+}
+.product-wrap .main-box .product-price{
+  height: 392px;
+  background-color: rgb(238, 236, 236);
+  width: 33.3333%;
+}
+.product-wrap .main-box .product-price .price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-wrap .main-box .product-price .price p{
+  font-size: 24px;
+  margin-right: 40px;
+}
+.product-wrap .main-box .product-price .price p:last-child{
+  font-size: 20px;
+  text-align: center;
+  padding: 8px 0;
+  width: 80px;
+  height: 40px;
+  border: 1px solid rgb(158, 153, 153);
+}
+.product-wrap .main-box .product-price .price-text{
+  margin: 50px 0;
+}
+
+.product-wrap .main-box .product-price .price-text p{
+  font-size: 18px;
+  border-bottom:1px solid rgb(135, 131, 131);
+  color: rgb(109, 106, 106);
+  padding-top: 25px;
+
+}
+.product-wrap .main-box .product-price button{
+  border: none;
+  width: 100%;
+  background-color: var(--color-main);
+  color: #fff;
+  height: 40px;
+}
+/*아코디언 */
+
+/* 제품설명보기 */
+.accordian .description-wrap{
+  font-family: var(--kr-font);
+  background-color: antiquewhite;
+  margin: 0 140px;
+  margin-bottom: 10px;
+}
+.accordian .description-wrap .inner{
+  padding:  0 30px;
+  /* background-color: teal; */
+}
+.accordian .description-wrap .up-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordian .description-wrap .up-box h5{
+  font-size: 22px;
+}
+.accordian .description-wrap .up-box p{
+  font-size: 40px;
+}
+
+.accordian .description-wrap .down-box{
+  display: flex;
+  align-items: center;
+}
+.accordian .description-wrap .down-box .img-wrap{}
+.accordian .description-wrap .down-box .img-wrap img{
+  width: 800px;
+}
+
+.accordian .description-wrap .down-box .letter-wrap{
+  /* display: flex; */
+  /* background-color: wheat; */
+}
+.accordian .description-wrap .down-box .letter-wrap .topic-box{
+  display: flex;
+  /* background-color: pink; */
+  padding-bottom: 20px;
+}
+.accordian .description-wrap .down-box .letter-wrap .topic-box dl{
+  width: 50%;
+
+}
+.accordian .description-wrap .down-box .letter-wrap .topic-box dt{
+  padding: 20px 0;
+  font-size: 19px;
+}
+.accordian .description-wrap .down-box .letter-wrap .topic-box dd{
+  line-height: 1.5;
+}
+
+
+.accordian .description-wrap .down-box .letter-wrap .content-box{
+  /* background-color: goldenrod; */
+}
+.accordian .description-wrap .down-box .letter-wrap .content-box p{
+  border-top: 2px solid rgb(202, 198, 198);
+  line-height: 1.5;
+  padding: 20px 0;
+  font-size: 20px;
+  /* max-width: 730px; */
+}
+
+
+
+/* 원료보기 */
+.accordian .material-wrap .down-box{}
+.accordian .material-wrap .down-box .img-wrap{}
+.accordian .material-wrap .down-box .img-wrap img{
+  width: 400px;
+}
+
+.accordian .material-wrap .down-box .letter-wrap{}
+.accordian .material-wrap .down-box .letter-wrap dt{
+  font-size: 26px;
+  padding: 20px 0;
+}
+.accordian .material-wrap .down-box .letter-wrap dd{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.accordian .material-wrap .down-box .letter-wrap .inside{
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+/* 대장정 */
+.product-img-wrap{
+  /* background-color: pink; */
+}
+.product-img-wrap .holistic-wrap .inner{
+  width: 60%;
+  padding: 50px 20px;
+  /* background-color: rgb(225, 217, 221, 0.7); */
+  /* background-color: var(--color-main); */
+  background-color: #142C25;
+
+
+  
+}
+.product-img-wrap .holistic-wrap .big-text h3{
+  padding: 70px 0;
+  font-size: 70px;
+  /* color: rgba(33, 32, 32, 0.8); */
+  color: rgb(243, 235, 235);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 5px 5px rgba(158, 153, 153, 0.8);
+}
+.product-img-wrap .holistic-wrap .holistic-content{
+  color: rgb(243, 235, 235);
+}
+.product-img-wrap .holistic-wrap .holistic-content .holistic-text{
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: var(--kr-font);
+}
+.product-img-wrap .holistic-wrap .holistic-content p.holistic-text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.5;
+}
+.product-img-wrap .holistic-wrap .holistic-content .holistic-text li{
+  line-height: 1.5;
+  font-size: 16px;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+.product-img-wrap .holistic-wrap .holistic-content .holistic-text li:last-child{
+  margin-bottom: 0;
+  
+}
+
+/* shampoo section */
+
+.product-img-wrap .shampoo01{
+  background: url('../img/teatree/1_PC.jpg')no-repeat 100% center / cover;
+  background-color: gold;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-img-wrap .shampoo01 h4{
+  font-family: var(--kr-font);
+  font-size: 38px;
+  color: #fff;
+
+}
+.product-img-wrap .set-img-wrap{
+  padding: 0;
+  display: flex;
+}
+.product-img-wrap .set-img-wrap img{
+  width: 50%;
+}
+.product-img-wrap .set-img-wrap .add-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  background-color: #123148;
+  color: #fff;
+  font-family: var(--kr-font);
+}
+.product-img-wrap .set-img-wrap .add-box h5{
+  line-height: 1.5;
+  font-size: 30px;
+  padding-bottom: 15px;
+
+}
+.product-img-wrap .set-img-wrap .add-box p{
+  padding-top: 15px;
+
+  font-size: 28px;
+}
+.product-img-wrap .shampoo-img-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-img-wrap .shampoo-img-wrap img{
+width: 40%;
+padding-bottom: 200px;
+}
+.product-img-wrap .shampoo-img-wrap img:last-child{
+  padding-bottom: 0;
+}
+.product-img-wrap .shampoo-img-wrap img:last-child{
+  padding-bottom: 0;
+}
+.product-img-wrap .how-wrap{
+  font-family: var(--kr-font);
+  padding: 0 50px;
+  display: flex;
+}
+.product-img-wrap .how-wrap .img-wrap{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* background-color: pink; */
+}
+.product-img-wrap .how-wrap .img-wrap img{
+  width: 80%;
+}
+  .product-img-wrap .how-wrap .for-use-wrap{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    /* background-color: tan; */
+  }
+  .product-img-wrap .how-wrap .for-use-wrap ul{
+    /* background-color: #cedde9; */
+    width: 80%;
+
+
+  }
+  .product-img-wrap .how-wrap .for-use-wrap ul li{
+    padding: 40px 0;
+    /* padding-top: 20px;
+    padding-bottom: 60px ; */
+    border-top: 1px solid rgb(167, 164, 164);
+    /* max-width: 474px; */
+  }
+  .product-img-wrap .how-wrap .for-use-wrap ul li:not(:first-child){
+    color: rgb(98, 96, 96);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .product-img-wrap .how-wrap .for-use-wrap ul li:first-child{
+    padding-top: 0;
+    border-top: none;
+  }
+  .product-img-wrap .how-wrap .for-use-wrap ul li p{
+    max-width: 474px;
+  }
+  .product-img-wrap .how-wrap .for-use-wrap ul li h6{
+    font-size: 28px;
+    padding: 20px 0;
+  }
+
+  /* join the circle */
+  .product-img-wrap .join-wrap{
+    background-color: #142C25;
+    color: rgba(255, 255, 255, 0.749);
+    margin: 100px 0;
+  }
+ 
+  .product-img-wrap .join-wrap h3{
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+  }
+  .product-img-wrap .join-wrap p{
+    padding: 60px 0;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .product-img-wrap .join-wrap .join-img-wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-img-wrap .join-wrap .join-img-wrap .bottle{
+    width: 190px;
+    animation: rotation 10s infinite linear;
+  }
+  .product-img-wrap .join-wrap .join-img-wrap img.absol{
+    width: 210px;
+    position: absolute;
+    top: 10;
+  }
+  .product-img-wrap .join-wrap .btn-wrap {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-img-wrap .join-wrap .btn-wrap button{
+    border: none;
+    background-color: #fff;
+    height: 40px;
+    width: 160px;
+    color: #142C25;
+  }
+  .product-img-wrap .join-wrap .btn-wrap button a{
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* review */
+
+  .review-wrap{
+    font-family: var(--kr-font);
+    padding: 0 200px;
+    padding-bottom: 90px;
+    /* background-color: gold; */
+  }
+  .review-wrap .btn-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .review-wrap .btn-wrap button,
+  .review-wrap .review-event-wrap button{
+    background-color: var(--color-main);
+    color: #fff;
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .review-wrap .review-event-wrap button{
+    width: 180px;
+    height: 40px;
+  }
+  .review-wrap  h6{
+    border-bottom: 3px solid #000;
+    font-size: 30px;
+  }
+  .review-wrap .review{
+  padding: 30px 0;}
+
+  .review-wrap .review li{
+    padding-bottom: 20px;
+    display: flex;
+  }
+  .review-wrap .review li:last-child{
+    padding-bottom: 0;
+  }
+  .review-wrap .review li p{
+    padding-right: 10px;
+    width: 10%;
+  }
+  .review-wrap .review li span{
+    width: 80%;
+    padding-right: 200px;
+  }
+  .review-wrap .review-event-wrap{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .review-wrap .review-event-wrap p{
+    line-height: 2;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(110, 108, 108);
+  }
+  .review-wrap .review-event-wrap {}
