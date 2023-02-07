@@ -8,19 +8,113 @@
 
  /* tablet */
 @media screen and (max-width:979px) and (min-width:580px){
-  article{
-    padding: 40px 0;
+  header {
+    width: 100%;
+    height: 60px;
+    padding:13px 0;
+    box-sizing:border-box;
+  }
+  header .header-wrap {
+    display: block;
+  }
+  header .header-wrap .logo{
+    text-align:center;
+  }
+  header .header-wrap .header-nav {
+    display: block;
+    position:fixed;
+    left:-400px;
+    top:0;
+    width:400px;
+    height:100%;
+    background-color:rgba(0,0,0,0.8);
+  }
+  header .header-wrap .header-nav .dep1 {
+    display: block;
+    /* background-color:red; */
+    width:90%; margin: 0 auto;
+    padding:15vh 0 0;
+  }
+  header .header-wrap .header-nav .dep1 > li {
+   border-bottom:1px solid #fff;
+  }
+  header .header-wrap .header-nav .dep1 > li > a {
+    width: auto;
+    line-height:7.5vh;
+  }
+  header .header-wrap .header-nav .dep1 > li > div {
+    display: block;
+    position: static;
+    top: 0;
+    width: auto;
+  }
+  /* hambuher menu */
+  header .header-wrap .menu{
+    visibility: visible;
   }
 
-header .header-wrap{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-header>div>h1{text-align:center;}
+  header .header-wrap .header-nav .dep1 .dep2 {
+    padding: 20px 10px;
+    height: auto;
+    /* transition: all 0.3s ease; */
+    opacity: 1;
+    visibility: visible;
+    display:none;
+    width: 100%;
+    z-index: -1;
+  }
+/*  */
+header .header-dim {
+  display:none;}
 
-  
+/* main-wrap */
+/* swiper */
+
+/* 상품 */
+
+.new-item-section {
+  background-color: #fff;
 }
+
+.new-item-section .title-wrap {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
+.new-item-section .title-wrap h4 {
+  font-size: 28px;
+}
+.new-item-section .title-wrap p {
+  padding-bottom: 30px;
+}
+.new-item-section .title-wrap button {
+  justify-content: center;
+  width: 140px;
+  height: 30px;
+}
+
+.col-4-items {
+  justify-content: center;
+  padding: 40px 30px;
+  height: 560px;
+  flex-wrap: wrap;
+  overflow-y: hidden;
+
+}
+
+.col-4-items li {
+  min-width: 280px;
+  margin-bottom: 50px;
+}
+  /* modal */
+  #aside .top,
+  #aside .coupon {
+    display: none;
+  }
+
 
 /* mobile */
 @media screen and (max-width:579px) and (min-width:5px){}

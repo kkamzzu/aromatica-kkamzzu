@@ -4,9 +4,11 @@ body {
   position: relative;
 }
 /*  */
-.material-wrap .inner{
-  height: 90vh;
+.material-main-img{
+  margin: 60px 0;
+  background-color: aquamarine;
 }
+
 
 /* text-wrap main */
 .material-wrap .inner .text-wrap{
@@ -28,10 +30,15 @@ body {
   line-height: 30px;
   text-align: center;
 }
+.second-inner{
+  background-color: hotpink;
+  display: flex;
+  justify-content: space-around;
+}
 
 .swiper {
   width: 300px;
-  height: 520px;
+  height: 580px;
 }
 
 
@@ -97,3 +104,29 @@ body {
   width: 100%;
   color: #000;
 }
+
+/* modal */
+.second-inner .meterial-modal-wrap{
+  background-color: teal;
+  max-height: 700px;
+  width: 60%;
+}
+.second-inner .meterial-modal-wrap .wrap .meterial-main .inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-inner .meterial-modal-wrap .wrap .meterial-main .inner .swipper-text-box{
+  text-align: center;
+}
+.second-inner .meterial-modal-wrap .wrap .meterial-main .inner .swipper-text-box h3{
+  font-size: 30px;
+}
+.second-inner .meterial-modal-wrap .wrap .meterial-main .inner .swipper-box img{
+  width: 300px;
+}
+.second-inner .meterial-modal-wrap .wrap .meterial-content
+.second-inner .meterial-modal-wrap .wrap .meterial-content .content-way
+.second-inner .meterial-modal-wrap .wrap .meterial-content .content-way
+.content-explain
